@@ -1,43 +1,50 @@
-
 # Book-Shopping Web Application
 
 ## Overview
 
-This project is a comprehensive e-commerce platform developed using ASP.NET Core (MVC), HTML, CSS, Bootstrap, JavaScript, and C#. It is designed to facilitate online transactions, inventory management, and customer interactions. The solution integrates various components to ensure seamless operation and an enhanced user experience.
+The Book-Shopping web application is a comprehensive e-commerce platform designed to facilitate online transactions, inventory management, and customer interactions. Built with ASP.NET Core (MVC), HTML, CSS, Bootstrap, JavaScript, and C#, this solution integrates various components to ensure seamless operation and an enhanced user experience.
 
 ## Key Features
 
-- **Project based on SOLID principles.**
-- **User Management:**
-  - Secure user registration and authentication using Identity Framework.
-  - Role-based access control with Admin, Employee, Company, and User roles.
-  - Social login options: Google, Facebook, LinkedIn, Instagram.
-  - Two-Factor Authentication (2FA) support.
+### Project Based on SOLID Principles
+- The application adheres to SOLID principles to ensure maintainability, scalability, and robustness of the codebase.
 
-- **Product Management:**
-  - Fully functional shopping cart with options to add, update, and delete products.
-  - Feature to select products in the cart with a tick mark.
-  - Home page displays products according to their sales quantity and number of times sold.
+### User Management
+- **Secure Registration and Authentication**: Utilizes the Identity framework for secure user registration and authentication.
+- **Role-Based Access Control**: Assigns roles such as Admin, Employee, Company, and User to control data access and authority.
+- **Social Login Options**: Supports login via Google, Facebook, LinkedIn, and Instagram.
+- **Two-Factor Authentication**: Enhances security by adding an extra layer of authentication.
 
-- **Order Processing:**
-  - Efficient order placement, tracking, and management.
+### Product Management
+- **Shopping Cart**: Fully functional shopping cart that allows adding, updating, and deleting products.
+- **Product Selection**: Feature to select products from the cart with a tick mark.
+- **Home Page Display**: Products are displayed based on the quantity sold, and it also shows how many times each book has been sold.
 
-- **Payment Integration:**
-  - Secure payment gateway integration for smooth transactions.
-  - Supported payment methods: Stripe, Google Pay, PayPal.
+### Order Processing
+- **Efficient Order Placement**: Streamlined process for placing orders.
+- **Order Tracking and Management**: Features to track and manage orders efficiently.
 
-- **Order Management:**
-  - Admins have full authority to view all orders with detailed information.
+### Payment Integration
+- **Secure Payment Gateways**: Integration with Stripe, Google Pay, and PayPal for smooth and secure transactions.
+
+### Order Management
+- **Admin Role**: Provides full authority to admins to view all orders placed with complete details.
+
+## Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
+- **Backend**: ASP.NET Core (MVC), C#
+- **Database**: SQL Server
+- **Authentication**: Identity Framework, Two-Factor Authentication
+- **Payment Gateways**: Stripe, Google Pay, PayPal
+- **Version Control**: Git
 
 ## Project Structure
+- **Controllers**: Handle HTTP requests and responses.
+- **Models**: Define the structure of the data.
+- **Views**: Present data to the user using Razor view engine.
+- **Services**: Implement business logic and handle data processing.
 
-- **Controllers:** Handles the application's logic and responds to user inputs.
-- **Views:** The UI part of the application.
-- **Models:** Represents the data and business logic.
-- **wwwroot:** Contains static files such as CSS, JavaScript, and images.
-
-## Installation
-
-1. **Clone the repository:**
+## Installation and Setup
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Souravchoudhary143/Book-Shopping.git
